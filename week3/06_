@@ -1,0 +1,14 @@
+def display_intro():
+    message="Welcome to Whitecliffe"
+    print(message)
+
+display_intro()
+
+def display_cost(dollars, cents):
+    cost_str= "cost is $"+ str(dollars)+":"+ str(cents)
+    print(cost_str)
+    return
+
+
+
+
